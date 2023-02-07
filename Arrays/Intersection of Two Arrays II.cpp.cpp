@@ -74,7 +74,7 @@ vector<int> intersect(vector<int> &nums1, vector<int> &nums2)
     for (int i = 0; i < nums1.size(); i++)
     {
         int num = nums1[i];
-        auto itr = find(nums2.begin(), nums2.end(), num);
+        vector<int> :: iterator itr = find(nums2.begin(), nums2.end(), num);
         if (itr != nums2.end())
         {
             ans.push_back(num);
