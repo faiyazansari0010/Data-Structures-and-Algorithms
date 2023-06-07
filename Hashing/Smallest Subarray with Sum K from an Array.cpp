@@ -52,7 +52,7 @@ int main()
         cin >> nums[i];
     }
     cin >> k;
-
+    
     cout << minSubArrayLen(k, nums, n);
 
     return 0;
